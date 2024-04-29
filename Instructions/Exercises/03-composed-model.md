@@ -47,8 +47,8 @@ lab:
 1. **[プロジェクト名]** テキストボックスに「**1040 Forms**」と入力し、**[続行]** を選択します。
 1. **[サービス リソースの構成]** ページの **[サブスクリプション]** ドロップダウン リストで、Azure サブスクリプションを選択します。
 1. **[リソース グループ]** ドロップダウン リストで、作成された **[DocumentIntelligenceResources&lt;xxxx&gt;]** を選択します。
-1. **[Azure AI Document Intelligence or Azure AI Service Resource]\(Azure AI Document Intelligence または Azure AI サービス リソース\)** ドロップダウン リストで、**[DocumentIntelligence&lt;xxxx&gt;]** を選択します。
-1. **[API バージョン]** ドロップダウン リストで、**[2023-10-31-preview]** が選択されていることを確認し、**[続行]** を選択します。
+1. **[Azure AI Document Intelligence or Azure AI Service Resource]\(Azure AI Document Intelligence または Azure AI サービス リソース\)** ドロップダウン リストで、作成されたリソースを選択します。
+1. **[API バージョン]** ドロップダウン リストで、最新のモデルが選択されていることを確認し、**[続行]** を選択します。
 1. **[Connect training data source]\(トレーニング データ ソースの接続\)** ページの **[サブスクリプション]** ドロップダウン リストで、Azure サブスクリプションを選択します。
 1. **[リソース グループ]** ドロップダウン リストで、**[DocumentIntelligenceResources&lt;xxxx&gt;]** を選択します。
 1. **[ストレージ アカウント]** ドロップダウン リストで、一覧表示されているストレージ アカウントのみを選択します。 サブスクリプションに複数のストレージ アカウントがある場合は、*docintelstorage* で始まるストレージ アカウントを選択します
@@ -94,8 +94,8 @@ lab:
 1. **[プロジェクト名]** テキストボックスに「**1099 Forms**」と入力し、**[続行]** を選択します。
 1. **[サービス リソースの構成]** ページの **[サブスクリプション]** ドロップダウン リストで、Azure サブスクリプションを選択します。
 1. **[リソース グループ]** ドロップダウン リストで、**[DocumentIntelligenceResources&lt;xxxx&gt;]** を選択します。
-1. **[Azure AI Document Intelligence or Azure AI Service Resource]\(Azure AI Document Intelligence または Azure AI サービス リソース\)** ドロップダウン リストで、**[DocumentIntelligence&lt;xxxx&gt;]** を選択します。
-1. **[API バージョン]** ドロップダウン リストで、**[20223-10-31-preview]** が選択されていることを確認し、**[続行]** を選択します。
+1. **[Azure AI Document Intelligence or Azure AI Service Resource]\(Azure AI Document Intelligence または Azure AI サービス リソース\)** ドロップダウン リストで、作成されたリソースを選択します。
+1. **[API バージョン]** ドロップダウン リストで、最新のモデルが選択されていることを確認し、**[続行]** を選択します。
 1. **[Connect training data source]\(トレーニング データ ソースの接続\)** ページの **[サブスクリプション]** ドロップダウン リストで、Azure サブスクリプションを選択します。
 1. **[リソース グループ]** ドロップダウン リストで、**[DocumentIntelligenceResources&lt;xxxx&gt;]** を選択します。
 1. **[ストレージ アカウント]** ドロップダウン リストで、一覧表示されているストレージ アカウントのみを選択します。
@@ -131,12 +131,12 @@ lab:
 1. **[トレーニングの進行中]** ダイアログで、**[モデルに移動]** を選択します。
 1. トレーニング プロセスには数分かかることがあります。 両方のモデルで **[成功]** 状態が表示されるまで、ブラウザーをときどき更新します。
 
-## 作成済みモデルを作成してアセンブルする
+## 構成済みモデルを作成してアセンブルする
 
 1040 と 1099 の納税申告フォームを分析する 2 つのカスタム モデルが完成しました。 次の手順に進み、作成済みモデルを作成できます。
 
 1. [Azure AI Document Intelligence モデル] ページで、**[1040FormsModel]** と **[1099FormsModel]** の両方を選択します。
-1. モデルの一覧の上部にある **[作成]** を選択します。
+1. モデルの一覧の上部にある **[Compose]** を選択します。
 1. **[新しいモデルの作成]** ダイアログの **[モデル ID]** テキストボックスに「**TaxFormsModel**」と入力し、**[作成]** を選択します。 Azure AI Document Intelligence によって作成済みモデルが作成され、カスタム モデルの一覧に表示されます。
 
 ## 作成済みモデルを使用する
